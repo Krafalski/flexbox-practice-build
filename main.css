@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:wght@400;700&display=swap");
+/*********************************
+* Build Helpers
+*********************************/
+
+/* * {
+  border: 1px solid mediumvioletred;
+}
+
+img {
+  width: 100px;
+} */
+
+/*********************************
+* General
+*********************************/
+
+body {
+  background-color: snow;
+  color: slategrey;
+  margin: 20px 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1em 0;
+}
+
+/*********************************
+* Header
+*********************************/
+
+header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+}
+
+header div:last-child {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+/*********************************
+* Container
+*********************************/
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+/*********************************
+* Aside/Nav
+*********************************/
+
+aside {
+  min-width: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* later */
+nav {
+  position: fixed;
+  top: 250px;
+}
+
+nav ul {
+  padding: 0;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+nav li {
+  list-style: none;
+  text-align: left;
+}
+/*********************************
+* Main
+*********************************/
+
+main {
+  width: 85%;
+}
+
+div[class$="row"] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.top-row img {
+  width: 100%;
+}
+
+div[class$="row"] img {
+  width: 100%;
+}
+.middle-row .card {
+  width: 49%;
+}
+
+.bottom-row .card {
+  width: 32%;
+}
+
+/*********************************
+* Footer
+*********************************/
