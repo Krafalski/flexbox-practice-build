@@ -43,58 +43,26 @@ If you want to code along, you can
 
 The website will be going through an awkward phase. It won't look good with just HTML, but as long as there is good structure and a plan it will come together!
 
-## Add CSS Helpers and General styles
+### Google fonts
 
-### CSS Helpers
-
-### On the first line:
+On the first line of `main.css`:
 
 ```CSS
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:wght@400;700&display=swap");
 ```
 
-```CSS
+## Photo attributes
 
-/*********************************
-* Build Helpers
-*********************************/
-/* give each element a border */
-* {
-  border: 1px solid mediumvioletred5;
-}
+The images on this build are from unsplash
 
-/* shrink images for placement */
-img {
-  width: 100px;
-}
-```
+Hero: by [Federica Campanaro](https://unsplash.com/@fiidesign) on Unsplash
 
-```CSS
-/*********************************
-* General
-*********************************/
+Indoor Furniture: by [Pickawood](https://unsplash.com/@pickawood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
 
-body {
-  background-color: snow;
-  color: slategrey;
-  margin: 20px 0;
-  font-family: 'Baloo 2', cursive;
-  text-align: center;
-}
+Outdoor wicker: by [Jesse Donoghoe](https://unsplash.com/@sweetspotphoto) on Unsplash
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
+Chair balloon: by [Florian Klauer](https://unsplash.com/@florianklauer) on Unsplash
 
+Our blog: by [Kam Idris](https://unsplash.com/@ka_idris) Singh on Unsplash
 
-```
-
-## Add Outer Containers
-
-In the body
-
-- `header`
-- `div` with a class of `container` in that div
-- `aside`
-- `main`
-- `footer`
+Sustainability: by [Kelly Miller](https://unsplash.com/@kellydee) on Unsplash
