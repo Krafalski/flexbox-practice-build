@@ -2,22 +2,117 @@
 /*********************************
 * Build Helpers
 *********************************/
+/* 
+* {
+  border: 1px solid mediumvioletred;
+} */
+
+/* img {
+  width: 100px;
+} */
 
 /*********************************
 * General
 *********************************/
 
+body {
+  background-color: snow;
+  color: slategray;
+  margin: 20px 0;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h1 {
+  font-family: Raleway, sans-serif;
+}
 /*********************************
 * Header
 *********************************/
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*********************************
+* Container
+*********************************/
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
 /*********************************
 * Main
 *********************************/
+main {
+  width: 84%;
+}
 
+div[class$="row"] {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+div[class$="row"] img {
+  width: 100%;
+}
+
+.top-row > .hero > img {
+  width: 100%;
+}
+
+.middle-row > .card {
+  width: 49%;
+}
+
+.bottom-row > .card {
+  width: 32%;
+}
 /*********************************
 * Aside/Nav
 *********************************/
+
+aside {
+  min-width: 15%;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-top: 0;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+nav {
+  height: 30vh;
+}
 
 /*********************************
 * Footer
