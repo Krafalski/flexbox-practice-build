@@ -6,6 +6,8 @@ A big and normal struggle is to take a mockup and turn it into a website.
 
 This site is inspired by: Hullo https://hullopillow.com
 
+[This is a companion video](https://www.youtube.com/watch?v=IGpw0wGgvgc&list=PLmRos5Kcpwc_ENY6d8Nc7M4Dnr-DH5Bq_) that shows an approach to create this. 
+
 ## Prerequisits
 
 - HTML fundamentals
